@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Myriem1/config-server  # URI of your dedicated config repo
+          uri: https://github.com/Myriem1/ecommerce-config-repo.git  # URI of your dedicated config repo
           clone-on-start: true  # Clone the repo on startup for faster access
           force-pull: true      # Always pull the latest changes
           timeout: 10           # Connection timeout in seconds
